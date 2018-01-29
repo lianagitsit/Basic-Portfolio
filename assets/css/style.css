@@ -1,0 +1,125 @@
+body {
+    background-color: #eee;
+    background-image: url("../images/dust_scratches.png");
+}
+
+#navbar {
+    background-color: #fff;
+    border-bottom: 2px solid #cccccc;
+    text-align: right;
+    height: 90px;
+    margin-top: -10px; 
+    width: 100%;
+}
+
+#navbar-content {
+    /* background-color: aliceblue; */
+    width: 960px;
+    height: 90px;
+    margin: 0px auto;
+}
+
+#name {
+    width: 20%;
+    height: 70px;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    color: #ffffff;
+    float: left;
+    padding: 10px;
+}
+
+ul {
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.menu-link {
+    display: inline;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#menu-link_portfolio {
+    padding: 0px 10px 0px 10px;
+    margin: 0px 10px 0px 10px;
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+
+a:link {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #777777;
+}
+
+hr {
+    color: #cccccc;
+    background-color: lightgray;
+    height: 3px;
+    border: 0;
+}
+
+#main-content {
+    margin: 20px auto;
+    width: 960px;
+}
+
+.subhead {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+}
+
+#about {
+    border: 1px solid lightgray;
+    background-color: white;
+    width: 590px;
+    padding: 30px;
+    float: left;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    line-height: 1.7em;
+    font-size: 18px;
+}
+
+#bio-image {
+    float: left;
+    margin: .6em 1em 0 0;
+}
+
+#contact {
+    width: 198px;
+    background-color: white;
+    border: 1px solid lightgray;
+    float: left;
+    padding: 30px;
+    margin-left: 45px;
+}
+
+.social-icon {
+    height: 55px;
+    width: 55px;
+}
+
+.fa-stack-overflow.fa-5x {
+    position: relative;
+    top: -.2em;
+    padding: .2em;
+    font-size: 30px;
+    color: #eee;
+    background-color: #f4a73b;
+    border-radius: 0.2em;
+    width: 1em;
+    text-align: center;
+  }
+
+.fa-linkedin-square {
+    color: #2d7ab4;
+}
+
+.fa-github-square {
+    color: #333333;
+}
