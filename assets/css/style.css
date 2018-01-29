@@ -6,6 +6,9 @@ body {
     background-image: url("../images/dust_scratches.png");
 }
 
+
+/* page navigation */
+
 #navbar {
     background-color: #fff;
     border-bottom: 2px solid #cccccc;
@@ -62,7 +65,10 @@ a:visited {
     color: #777777;
 }
 
-#main-content {
+
+/* Main page content display panel */
+
+section {
     flex: 1 0 auto;
     margin: 40px auto 50px auto;
     width: 960px;
@@ -73,18 +79,18 @@ a:visited {
     color: #4aaaa5;
 }
 
-#about > hr {
+#main-content > hr {
     color: #dddddd;
     background-color: #dddddd;
     height: 3px;
     border: 0;
 }
 
-#about {
+#main-content {
     border: 1px solid #dddddd;
     background-color: white;
     width: 590px;
-    padding: 15px 30px 10px 30px;
+    padding: 15px 30px 20px 30px;
     float: left;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
@@ -92,23 +98,61 @@ a:visited {
     font-size: 18px;
 }
 
+
+/* Image for About Me panel */
+
 #bio-image {
     float: left;
     margin: .6em 1em 0 0;
 }
 
+
+/* Contact form */
+
+form {
+    margin-top: 30px;
+}
+
+input[type=text], textarea {
+    width: 96%;
+    padding: 10px 5px;
+    border: 1px solid #dddddd;
+    margin-bottom: 15px;
+}
+
+textarea {
+    height: 200px;
+}
+
+::placeholder {
+    color: lightgray;
+    font-size: 14px;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 16px;
+    padding: 10px 30px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+
+/* Social media links sidebar */
+
 h3.subhead {
     font-size: 21px;
 }
 
-#contact > hr {
+#connect-social > hr {
     color: #dddddd;
     background-color: #dddddd;
     height: 2px;
     border: 0;
 }
 
-#contact {
+#connect-social {
     width: 198px;
     background-color: white;
     border: 1px solid #dddddd;
@@ -123,7 +167,6 @@ span.icon {
     display: inline-block;
     height: 55px;
     width: 55px;
-    /* overflow: hidden; */
     position: relative;
 }
 
@@ -133,7 +176,6 @@ span.icon:hover {
 
 .fa-stack-overflow.fa-5x {
     position: absolute;
-    /* top: -1px; */
     padding: 7px;
     font-size: 41px;
     color: #fff;
@@ -142,10 +184,6 @@ span.icon:hover {
     width: 41px;
     text-align: center;
 }
-
-/* .fa-stack-overflow.fa-5x:hover {
-    border: 1px solid blue;
-} */
 
 span#linkedin {
     margin-left: 4px;
@@ -161,10 +199,6 @@ span#linkedin {
     left: -10px;
 }
 
-/* .fa-linkedin-square.fa-5x:hover {
-    border: 1px solid blue;
-} */
-
 .fa-github-square.fa-5x {
     color: #333333;
     font-size: 65px;
@@ -172,12 +206,10 @@ span#linkedin {
     top: -5px;
 }
 
-/* .fa-github-square.fa-5x:hover {
-    border: 1px solid blue;
-} */
+
+/* Footer and copyright info */
 
 footer {
-    /* clear: both; */
     flex-shrink: 0;
     background-color: #666666;
     border-top: 7px solid #4aaaa5;
