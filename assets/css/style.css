@@ -17,10 +17,6 @@ body {
     overflow: auto;
 }
 
-/* .wrapper_about-fix {
-    padding: 0 0 20px;
-} */
-
 
 /* Page navigation */
 
@@ -92,7 +88,6 @@ a:visited {
 .page-content {
     margin: 40px auto 0 auto;
     width: 960px;
-    /* display: block; */
 }
 
 .subhead {
